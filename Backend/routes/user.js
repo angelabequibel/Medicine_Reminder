@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 const userController = require("../controllers/user");
 
+
+
 router.post("/add-user", userController.addUser);
 router.post("/delete-user", userController.deleteUser);
 router.post("/edit-phono",userController.editPhoneNumber);
